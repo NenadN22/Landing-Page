@@ -1,0 +1,47 @@
+
+* {
+   font-family: Roboto;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    width: 100px;
+    padding: 20px;
+    border-radius: 100%;
+}
+.first-section-text {
+    width: 400px;
+}
+.astronaut {
+    width: 350px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002642;
+    align-items: center;
+    margin: 0;
+    
+}
+ul li {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+}
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 200px;
+    background-color: #E59500;
+}
