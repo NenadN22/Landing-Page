@@ -114,7 +114,7 @@ h4 {
 }
 .fourth-section {
     display: flex;
-    background-color: #001C55;
+    background-color: #E59500;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -126,16 +126,16 @@ h4 {
     
 }
 .fourth-text {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 600px;
     
 }
 .fourth-button {
     padding: 8px 30px;
     font-size: 13px;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: transparent;
-    border: solid 2px white;
+    border: solid 2px rgb(0, 0, 0);
     border-radius: 10px;
     cursor: pointer;
 }
