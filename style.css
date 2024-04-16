@@ -1,6 +1,7 @@
 
 * {
    font-family: Roboto;
+   margin: 0;
 }
 body {
     padding: 0;
@@ -13,12 +14,17 @@ body {
 }
 .first-section-text {
     width: 400px;
+    
+}
+.first-section-text p {
+    margin-bottom: 30px;
 }
 .astronaut {
     width: 350px;
 }
 .Rubicon {
     font-size: 50px;
+    margin-bottom: 30px;
 }
 .header {
     display: flex;
@@ -84,4 +90,22 @@ a {
 h2 {
     margin: 0;
     padding-top: 30px;
+}
+.third-section {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    padding: 100px;
+
+}
+.quote {
+    width: 750px;
+    font-size: 20px;
+    font-style: italic;
+}
+h4 {
+    font-size: 20px;
+    margin-left: 600px;
 }
