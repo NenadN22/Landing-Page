@@ -17,6 +17,9 @@ body {
 .astronaut {
     width: 350px;
 }
+h1 {
+    font-size: 50px;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -44,4 +47,11 @@ a {
     padding: 50px;
     gap: 200px;
     background-color: #E59500;
+}
+.first-button {
+    background-color: #7B2D26;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
 }
