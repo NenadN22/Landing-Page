@@ -17,7 +17,7 @@ body {
 .astronaut {
     width: 350px;
 }
-h1 {
+.Rubicon {
     font-size: 50px;
 }
 .header {
@@ -54,4 +54,34 @@ a {
     padding: 10px 20px;
     color: white;
     border-radius: 30px;
+}
+.first-button:hover {
+    cursor: pointer;
+}
+.city-image {
+    width: 120px;
+}
+.card {
+    width: 350px;
+    text-align: center;
+}
+.card img {
+    border: solid 5px black;
+    border-radius: 30px;
+}
+.second-section {
+    text-align: center;
+    background-color: #FFC482;
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+h2 {
+    margin: 0;
+    padding-top: 30px;
 }
